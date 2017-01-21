@@ -1,11 +1,143 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>CoderDojo Maebashi</title>
-  </head>
-<body>
-<h1>CoderDojo 前橋</h1>
-<p>CoderDojo 前橋の公式サイトです。<br>
-  随時更新していきます。</p>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>CoderDojo Maebashi</title>
+
+		<link rel="shortcut icon" type="image/png" href="assets/img/brand.png">
+
+		<meta property="og:title" content="CoderDojo Maebashi">
+		<meta property="og:type" content="website">
+		<meta property="og:locale" content="ja_JP">
+		<meta property="og:site_name" content="CoderDojo Maebashi">
+		<meta property="og:url" content="https://vtmacs003b.github.io/maebashi.jp/">
+		<meta property="og:image" content="https://vtmacs003b.github.io/maebashi.jp/1200x630px">
+		<meta property="og:description" content="プログラミング道場 CoderDojo 前橋の公式サイトです。">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	</head>
+	<body>
+	<header>
+	<nav class="navbar navbar-light bg-faded navbar-fixed-top">
+		<div class="container">
+			<a href="/" class="navbar-brand">CoderDojo 前橋</a>
+			<button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
+			<div class="clearfix hidden-sm-up"></div> <!-- fix navbar responsive bug -->
+			<div class="collapse navbar-toggleable-xs" id="navbar-header">
+				<ul class="nav navbar-nav">
+				<li class="nav-item">
+				<a href="#whatsthis" class="nav-link">CoderDojo とは？</a>
+				</li>
+				<li class="nav-item"><a href="#mentor" class="nav-link">メンター募集中</a></li>
+				<li class="nav-item"><a href="#ninja" class="nav-link">参加者募集について</a></li>
+				</ul>
+			</div>
+		</div>
+		</nav>
+	</header>
+	<artcle>
+	<div class="jumbotron special">
+		<div class="container">
+			<h1>すべての子どもにプログラミングを</h1>
+			<img src="img/CoderDojo_Maebashi_header.png" alt="CoderDojo 前橋">
+		</div>
+	</div>
+	
+	<hr>
+	
+	<div id="whatsthis" class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<h2>CoderDojo とは？</h2>
+				<p>
+				CoderDojo は7〜17歳の子どもを対象にしたプログラミング道場です。2011年にアイルランドで始まり、世界では70カ国・1,200の道場、日本では全国に70以上の道場があります (2017年1月)。<br>
+				CoderDojo 前橋は、群馬県初の CoderDojo で、主に Raspberry Pi を用いてプログラミングをする予定です。<br>
+				詳しい道場の雰囲気については、次のスライドを参考にして下さい。
+				</p>
+				<p style="margin-top:10px;">さらに詳しい道場の様子については、次の記事や動画をご参照ください。</p>
+					<ul>
+					<li><a href="http://bakemono.jp/reading/blog/web/2256/">CoderDojoとは? 運営者に話を聞いてみた!</a> (バケモノ.jp)</li>
+					<li><a href="http://ict-enews.net/zoomin/17coderdojo/">子どものための無料プログラミング道場 CoderDojo をはじめてみませんか</a> (ICT教育ニュース)</li>
+					<li><a href="https://www.youtube.com/watch?v=gLDue2xb1j8">あなたがDojoに来る理由は何ですか?</a> (YouTube)</li>
+					</ul>
+					<p>それぞれインタビュー形式で構成されているので、より具体的なイメージが掴めるかなと思います :)</p>
+			</div>
+			<div class="col-sm-6">
+				<div class="text-center">
+					<iframe src="https://www.slideshare.net/slideshow/embed_code/key/FAXoW4pBq172mQ" width="595" height="388" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+					<div style="margin-bottom:5px; color: grey;">スライドが見えない場合は<a href="https://www.slideshare.net/togazo/coderdojo-introduction-jp" title="CoderDojoガイダンス（最新版）" target="_blank">コチラ</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<hr>
+	
+	<div id="mentor" class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<h2>メンター募集中</h2>
+				<p>
+					現在、CoderDojo 前橋では、一緒に活動してくれるメンターを募集しています。
+					Raspberry Pi を持っていなくても、Scratch を使ったことがある方なら大歓迎です。
+					下記メールアドレスまで連絡をお願いいたします。<br>
+					<address>maebashi.jp@coderdojo.com</address>
+				</p>
+			</div>
+			<div class="col-sm-6">
+				<img src="img/programming.jpg" alt="プログラミング" width="400">
+			</div>
+		</div>
+	</div>
+	
+	<hr>
+	
+	<div id="ninja" class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<h2>参加者募集について</h2>
+				CoderDojo 前橋の参加者募集については、２月上旬をめどにこちらでご案内いたします。
+			</div>
+			<div class="col-sm-6">
+				<img src="img/child_04.jpg" alt="子ども達">
+			</div>
+		</div>
+	</div>
+	
+	</article>
+	<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 text-xs-center copyright">
+				&copy; 2017 CoderDojo Maebashi, Japan.
+			</div>
+		</div>
+	</div>
+	</footer>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		jQuery(function(){
+			var headerHight = 0;
+			jQuery('a[href^=#]').click(function() {
+				var speed = 400;
+				var href= jQuery(this).attr("href");
+				var target = jQuery(href == "#" || href == "" ? 'html' : href);
+				var position = target.offset().top-headerHight;  jQuery('body,html').animate({scrollTop:position}, speed, 'swing');
+				return false;
+			});
+		});
+	</script>
+
+	</body>
 </html>
