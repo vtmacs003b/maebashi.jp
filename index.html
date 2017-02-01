@@ -5,14 +5,14 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<title>CoderDojo Maebashi</title>
+		<title>CoderDojo 前橋 - CoderDojo Maebashi</title>
 
 		<link rel="shortcut icon" href="favicon.ico">
 
-		<meta property="og:title" content="CoderDojo Maebashi">
+		<meta property="og:title" content="CoderDojo 前橋">
 		<meta property="og:type" content="website">
 		<meta property="og:locale" content="ja_JP">
-		<meta property="og:site_name" content="CoderDojo Maebashi">
+		<meta property="og:site_name" content="CoderDojo 前橋">
 		<meta property="og:url" content="https://vtmacs003b.github.io/maebashi.jp/">
 		<meta property="og:image" content="https://vtmacs003b.github.io/maebashi.jp/img/raspi_dojo.png">
 		<meta property="og:description" content="プログラミング道場 CoderDojo 前橋の公式サイトです。">
@@ -30,10 +30,12 @@
 	<header>
 	<nav class="navbar navbar-light bg-faded navbar-fixed-top">
 		<div class="container">
-			<a href="/maebashi.jp/" class="navbar-brand">CoderDojo 前橋</a>
+			<a href="/maebashi.jp/" class="navbar-brand">
+			<img src="favicon.png" width="25" height="25" class="d-inline-block align-top" alt="M">
+			CoderDojo 前橋</a>
 			<button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
 			<div class="clearfix hidden-sm-up"></div> <!-- fix navbar responsive bug -->
-			<div class="collapse navbar-toggleable-xs" id="navbar-header">
+			<div class="collapse navbar-toggleable-md" id="navbar-header">
 				<ul class="nav navbar-nav">
 				<li class="nav-item"><a href="#whatsthis" class="nav-link">CoderDojo とは？</a></li>
 				<li class="nav-item"><a href="#maebashi" class="nav-link">CoderDojo 前橋について</a></li>
@@ -47,12 +49,22 @@
 	<article>
 	<div class="jumbotron special">
 		<div class="container">
-			<h1>すべての子どもにプログラミングを</h1>
-			<img src="img/CoderDojo_Maebashi_header.png" alt="CoderDojo 前橋" class="img-responsive">
-			<p>
-				CoderDojo前橋（CoderDojo Maebashi）は、群馬県前橋市で開催を<b>予定</b>している小学生・中学生向けプログラミング道場です。<br />
-				前橋市の会場で、２０１７年４月より毎月１回の定期開催を<b>予定</b>しています。
-			</p>
+		  <div class="row">
+			<div class="col-xs-12 outline">
+				<h1 class="raspi display-4">すべての子どもにプログラミングを</h1>
+				<img src="img/CoderDojo_Maebashi_header.png" alt="CoderDojo 前橋" class="img-responsive">
+				<p>
+					CoderDojo（コーダードージョー） 前橋は、参加費無料でプログラミングを学べる小中学生
+を対象としたコンピュータサイエンス道場です。プログラミングを始めとしたコンピュータサイエンスは子どもたちがこれからの社会で生きていくために必要な能力です。<br>
+					<strong>２０２０年からは小学校でプログラミングが必修化されます。<br>
+					一足先にプログラミングの世界を親子で体験してみませんか？</strong>
+				</p>
+				<div class="download center-block">
+					<a href="#mentor" class="btn btn-secondary btn-lg"><i class="fa fa-users"></i> メンター募集中</a>
+					<a href="#ninja" class="btn btn-primary btn-lg"><i class="fa fa-child"></i> 参加者募集中</a>
+				</div>
+			</div>
+		  </div>
 		</div>
 	</div>
 	
@@ -77,7 +89,7 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="text-center">
-					<iframe src="https://www.slideshare.net/slideshow/embed_code/key/FAXoW4pBq172mQ" width="595" height="388" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+					<iframe src="https://www.slideshare.net/slideshow/embed_code/key/FAXoW4pBq172mQ" width="595" height="388" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 					<div style="margin-bottom:5px; color: grey;">スライドが見えない場合は<a href="https://www.slideshare.net/togazo/coderdojo-introduction-jp" title="CoderDojoガイダンス（最新版）" target="_blank">コチラ</a></div>
 				</div>
 			</div>
@@ -95,12 +107,22 @@
 					内容は、小型コンピュータ Raspberry Pi を用いたプログラミングが中心となります。<br>
 					<a href="https://ja.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi - Wikipedia</a><br>
 					<a href="http://jp.rs-online.com/web/generalDisplay.html?id=raspberrypi">Raspberry Pi ｜ラズパイ正規総代理店 RSコンポーネンツ</a><br>
-					CoderDojo はボランティア活動になりますので、参加費は頂きません。無償で参加することが可能です（ただし、Raspberry Pi などの必要機材は購入して頂くことになります）。<br>
-					参加募集定員は２０名の予定で、場所は前橋市立永明公民館になります。
+					CoderDojo はボランティア活動になりますので、参加費は頂きません。<br>
+					ただし、施設利用料として年間500円頂きます。<br>
+					また、別途実費として Raspberry Pi の購入等が必要になります。<br>
+					参加募集定員は２０名の予定です。
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<iframe src="//maps.google.com/?ll=36.362915%2C139.125232&amp;spn=0.017418%2C0.060081&amp;ie=UTF8&amp;hl=ja&amp;z=14&amp;t=roadmap&amp;sll=36.362915%2C139.125232&amp;sspn=0.017418%2C0.060081&amp;q=36.362192%2C139.127491%20(%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AA%E3%81%97%E3%81%AE%E5%A0%B4%E6%89%80)&amp;output=embed" title="前橋市立永明公民館" width="100%" height="500" frameborder="0" class="map_embed" scrolling="no"></iframe>
+				<dl>
+					<dt>CoderDojo 代表：関口　悠</dt>
+					<dd>
+					群馬県前橋市在住。<br>
+					県内の高校で数学教師をしている、一児の父。<br>
+					マイクロソフト認定の教育イノベーターとしても活動している。
+					<img src="img/champion_s.jpg" alt="関口悠" class="rounded float-right">
+					</dd>
+				</dl>
 			</div>
 		</div>
 	</div>
@@ -119,7 +141,7 @@
 				<address>maebashi.jp@coderdojo.com</address>
 			</div>
 			<div class="col-sm-6">
-				<img src="img/raspi.png" alt="Raspberry Pi" class="img-responsive">
+				<img src="img/mentor.jpg" alt="Raspberry Pi" class="img-responsive">
 			</div>
 		</div>
 	</div>
@@ -130,15 +152,19 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<h2>参加者募集について</h2>
-				CoderDojo 前橋の参加者募集については、２月上旬をめどにこちらでご案内いたします。<br>
-				現状では<br>
-				参加費：無料（ただし、Raspberry Piなど機材費で初期費用が5,000円〜15,000円程度かかります）<br>
-				場所：前橋市立永明公民館<br>
-				定員：２０名<br>
-				２０１７年４月２日（日）に保護者対象の説明会を実施予定です。
+				<dl>
+					<dt>CoderDojo 前橋　保護者対象説明会の日程</dt>
+					<dd>
+					２０１７年３月１８日（土）　１０：００～１１：００<br>
+					場所：前橋市内の会場（募集終了後、申込された方に連絡致します）<br>
+					申込先：<a href="https://goo.gl/forms/VP4YK6axPSEx6SUq2">こちら</a><br>
+					募集定員：２０名（定員に達し次第申込を締め切ります）<br>
+					申込締切：平成２９年２月２８日（火）
+					</dd>
+				</dl>
 			</div>
 			<div class="col-sm-6">
-				<img src="img/child_04.jpg" alt="子ども達" class="img-responsive">
+				<img src="img/raspi.png" alt="子ども達" class="img-responsive">
 			</div>
 		</div>
 	</div>
