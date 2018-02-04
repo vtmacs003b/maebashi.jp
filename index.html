@@ -16,8 +16,7 @@
 		<meta property="og:url" content="https://vtmacs003b.github.io/maebashi.jp/">
 		<meta property="og:image" content="https://vtmacs003b.github.io/maebashi.jp/img/raspi_dojo.png">
 		<meta property="og:description" content="プログラミング道場 CoderDojo 前橋の公式サイトです。">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!--[if lt IE 9]>
@@ -28,15 +27,16 @@
 	</head>
 	<body>
 	<header>
-	<nav class="navbar navbar-light bg-faded navbar-fixed-top">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 		<div class="container">
 			<a href="/maebashi.jp/" class="navbar-brand">
 			<img src="favicon.png" width="25" height="25" class="d-inline-block align-top" alt="M">
 			CoderDojo 前橋</a>
-			<button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
-			<div class="clearfix hidden-sm-up"></div> <!-- fix navbar responsive bug -->
-			<div class="collapse navbar-toggleable-md" id="navbar-header">
-				<ul class="nav navbar-nav">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar-header">
+				<ul class="navbar-nav">
 				<li class="nav-item"><a href="#whatsthis" class="nav-link">CoderDojo とは？</a></li>
 				<li class="nav-item"><a href="#maebashi" class="nav-link">CoderDojo 前橋について</a></li>
 				<li class="nav-item"><a href="#schedule" class="nav-link">日程</a></li>
@@ -47,6 +47,7 @@
 		</div>
 		</nav>
 	</header>
+
 	<article>
 	<div class="jumbotron special">
 		<div class="container">
@@ -122,8 +123,7 @@
 					<a href="https://ja.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi - Wikipedia</a><br>
 					<a href="http://jp.rs-online.com/web/generalDisplay.html?id=raspberrypi">Raspberry Pi ｜ラズパイ正規総代理店 RSコンポーネンツ</a><br>
 					なお、会場にはインターネット環境がありませんので、CoderDojo 前橋の活動中にプログラミング環境のインストールはできませんのでご注意ください。<br>
-					また、参加したときに Raspberry Pi を貸し出すことも可能ですが、台数に限りがございますので、各自で購入・持参していただけると助かります。<br>
-					参加募集定員は２０名の予定です。
+					また、参加したときに Raspberry Pi を貸し出すことも可能ですが、台数に限りがございますので、各自で購入・持参していただけると助かります。
 				</p>
 			</div>
 			<div class="col-sm-6">
@@ -132,7 +132,7 @@
 					<dd>
 					群馬県前橋市在住。<br>
 					県内の高校で数学教師をしている、一児の父。<br>
-					マイクロソフト認定の教育イノベーターとしても活動している。
+					マイクロソフト認定教育イノベーター、Intel Teach マスターティーチャー、Apple Teacher としても活動している。
 					<img src="img/champion_s.jpg" alt="関口悠" class="rounded float-right">
 					</dd>
 				</dl>
@@ -154,81 +154,92 @@
 				<h2>日程について</h2>
 				<dl>
 					<dt>第１回</dt>
-					<dd>
-					２０１７年４月１６日（日）　１０：００～１２：００<br>
-					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セイスイハイムビル２Fセミナー室</a><br>
+					<dd class="alert-light">
+					２０１７年４月１６日（日）　１０：００～１２：００
 					</dd>
 				</dl>
 				<dl>
 					<dt>第２回</dt>
-					<dd>
-					２０１７年５月２１日（日）　１０：００～１２：００<br>
-					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セイスイハイムビル２Fセミナー室</a><br>
+					<dd class="alert-light">
+					２０１７年５月２１日（日）　１０：００～１２：００
 					</dd>
 				</dl>
 				<dl>
 					<dt>第３回</dt>
-					<dd>
-					２０１７年６月１１日（日）　１０：００～１２：００<br>
-					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セイスイハイムビル２Fセミナー室</a><br>
+					<dd class="alert-light">
+					２０１７年６月１１日（日）　１０：００～１２：００
 					</dd>
 				</dl>
 				<dl>
 					<dt>第４回</dt>
-					<dd>
-					２０１７年７月１６日（日）　１０：００～１２：００<br>
-					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セイスイハイムビル２Fセミナー室</a><br>
+					<dd class="alert-light">
+					２０１７年７月１６日（日）　１０：００～１２：００
 					</dd>
 				</dl>
 				<dl>
 					<dt>第５回</dt>
-					<dd>
-					２０１７年８月６日（日）　１０：００～１２：００<br>
-					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セイスイハイムビル２Fセミナー室</a><br>
+					<dd class="alert-light">
+					２０１７年８月６日（日）　１０：００～１２：００
+					</dd>
+				</dl>
+				<dl>
+					<dt>第６回</dt>
+					<dd class="alert-light">
+					２０１７年９月１０日（日）　１０：００～１２：００
 					</dd>
 				</dl>
 			</div>
 			<div class="col-sm-6">
 				<dl>
-					<dt>第６回</dt>
-					<dd>
-					２０１７年９月１０日（日）　１０：００～１２：００<br>
-					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セイスイハイムビル２Fセミナー室</a><br>
-					</dd>
-				</dl>
-				<dl>
 					<dt>第７回</dt>
-					<dd>
-					２０１７年１０月１４日（土）　１０：００～１２：００<br>
-					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セイスイハイムビル２Fセミナー室</a><br>
+					<dd class="alert-light">
+					２０１７年１０月１４日（土）　１０：００～１２：００
 					</dd>
 				</dl>
 				<dl>
 					<dt>第８回</dt>
-					<dd>
-					２０１７年１１月５日（日）　１０：００～１２：００<br>
-					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セイスイハイムビル２Fセミナー室</a><br>
+					<dd class="alert-light">
+					２０１７年１１月５日（日）　１０：００～１２：００
 					</dd>
 				</dl>
 				<dl>
 					<dt>第９回</dt>
-					<dd>
-					２０１７年１２月１０日（日）　１０：００～１２：００<br>
-					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セイスイハイムビル２Fセミナー室</a><br>
+					<dd class="alert-light">
+					２０１７年１２月１０日（日）　１０：００～１２：００
 					</dd>
 				</dl>
 				<dl>
 					<dt>第１０回</dt>
-					<dd>
-					２０１８年２月４日（日）　１０：００～１２：００<br>
-					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セイスイハイムビル２Fセミナー室</a><br>
+					<dd class="alert-light">
+					２０１８年２月４日（日）　１０：００～１２：００
 					</dd>
 				</dl>
 				<dl>
 					<dt>第１１回</dt>
 					<dd>
 					２０１８年３月４日（日）　１０：００～１２：００<br>
-					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セイスイハイムビル２Fセミナー室</a><br>
+					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セキスイハイムビル２Fセミナー室</a><br>
+					</dd>
+				</dl>
+				<dl>
+					<dt>第１２回</dt>
+					<dd>
+					２０１８年４月１５日（日）　１０：００～１２：００<br>
+					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セキスイハイムビル２Fセミナー室</a><br>
+					</dd>
+				</dl>
+				<dl>
+					<dt>第１３回</dt>
+					<dd>
+					２０１８年５月２０日（日）　１０：００～１２：００<br>
+					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セキスイハイムビル２Fセミナー室</a><br>
+					</dd>
+				</dl>
+				<dl>
+					<dt>第１４回</dt>
+					<dd>
+					２０１８年６月１０日（日）　１０：００～１２：００<br>
+					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セキスイハイムビル２Fセミナー室</a><br>
 					</dd>
 				</dl>
 			</div>
@@ -286,17 +297,18 @@
 	</div>
 	
 	</article>
-	<footer class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 text-xs-center copyright">
-				&copy; 2017 CoderDojo Maebashi, Japan.
-			</div>
-		</div>
+
+	<footer class="bd-footer text-muted">
+	<div class="container-fluid text-center">
+		<hr>
+		<p>
+			&copy; 2017- CoderDojo Maebashi, Japan.
+		</p>
 	</div>
 	</footer>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script>
 		jQuery(function(){
