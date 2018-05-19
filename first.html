@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<title>CoderDojo 前橋 - CoderDojo Maebashi</title>
+		<title>CoderDojo 前橋 > まず始めに</title>
 
 		<link rel="shortcut icon" href="favicon.ico">
 
@@ -15,10 +15,9 @@
 		<meta property="og:site_name" content="CoderDojo 前橋">
 		<meta property="og:url" content="https://vtmacs003b.github.io/maebashi.jp/">
 		<meta property="og:image" content="https://vtmacs003b.github.io/maebashi.jp/img/raspi_dojo.png">
-		<meta property="og:description" content="プログラミング道場 CoderDojo 前橋の公式サイトです。">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<meta property="og:description" content="プログラミング道場 CoderDojo 前橋において、まず始めに検討して頂きたい内容をまとめたサイトです。">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--[if lt IE 9]>
       <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -28,14 +27,15 @@
 	</head>
 	<body>
 	<header>
-	<nav class="navbar navbar-light bg-faded navbar-fixed-top">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 		<div class="container">
 			<a href="/maebashi.jp/" class="navbar-brand">
 			<img src="favicon.png" width="25" height="25" class="d-inline-block align-top" alt="M">
 			CoderDojo 前橋</a>
-			<button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
-			<div class="clearfix hidden-sm-up"></div> <!-- fix navbar responsive bug -->
-			<div class="collapse navbar-toggleable-md" id="navbar-header">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar-header">
 				<ul class="nav navbar-nav">
 				<li class="nav-item"><a href="#slide" class="nav-link">説明会スライド</a></li>
 				<li class="nav-item"><a href="#raspi" class="nav-link">Raspberry Pi の購入</a></li>
@@ -56,7 +56,7 @@
 				<h1 class="raspi display-4">まず始めに</h1>
 				<p>
 					　CoderDojo 前橋では、安価にパソコン環境を整えるために Raspberry Pi の利用を推奨しています。<br>
-					（Raspberry Pi がなくても普通のノートパソコンがあれば活動はできます）<br>
+					<strong>（Raspberry Pi がなくても普通のノートパソコンがあれば活動はできます）</strong><br>
 					このページは Raspberry Pi の購入を含めた初期設定の解説ページです。
 				</p>
 				<p>
@@ -216,11 +216,14 @@
 			<div class="col-sm-6">
 				<h2>モニターの購入</h2>
 				<p>
-					モニターに関しては、国立青少年教育振興機構の「<a href="http://yumekikin.niye.go.jp/" target="_blank">子どもゆめ基金</a>」を利用して購入する予定です。<br>
-					既に、２０台 <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0155WN7CK/" target="_blank">Raspberry Pi 公式ディスプレイ</a>を購入済みです。<br>
-					ちなみに、説明会のときにケースが必要だと申し上げましたが、このモニターに本体を直接接続するため、市販のケースは使えません。<br>
-					また、もっと大きいモニターが良い場合は、自己負担でご購入をお願いいたします。
+					モニターに関しては、既に２０台 <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0155WN7CK/" target="_blank">Raspberry Pi 公式ディスプレイ</a>を購入済みです。<br>
+					もっと大きいモニターが良い場合は、自己負担でご購入をお願いいたします。
+				</p><p>
+					<ins datetime="2018-04-03T19:00:00+09:00">2018年4月3日に<a href="http://canvas.ws/">NPO法人 CANVAS 様</a>より、<a href="https://japancatalog.dell.com/pd/U2412M.html?dgc=ST&cid=313000&lid=5927036">DELL社製24インチモニター</a>を10台進呈して頂きました。こちらを道場で使いたい場合は、予めご連絡ください。</ins>
+					<img src="img/monitor.jpg" alt="レンタル用モニタ" class="img-fluid">
 				</p>
+			</div>
+			<div class="col-sm-6">
 				<p>
 					公式ディスプレイはタッチディスプレイのため、Raspberry Pi を接続するとタブレット端末のように利用することができます。（つまりマウスは必要なくなります）<br>
 					ただし、スタンドのようなものがないと使いにくいと思いますので、以下のスタンドでお好きな色のご購入をしておくことをお薦めします。
@@ -238,8 +241,6 @@
 					<li><a href="https://www.amazon.co.jp/Eleduino-Raspberry-タッチスクリーン-ディスプレイ-Multicolor/dp/B01FZ5N20O" target="_blank">Eleduino ディスプレイ ケース Bamboo +Raspberry pi 3 Multicolor アクリル ケース Kit </a></li>
 					<li><a href="https://www.amazon.co.jp/Raspberry-Pi-7インチ-LCDタッチスクリーン-拡張ボードケース-ABS樹脂-RSコンポーネンツ製-黒/dp/B01NBB0XO8/" target="_blank">拡張ボードケース　ABS樹脂　（RSコンポーネンツ製） (クリア) </a></li>
 				</ul>
-			</div>
-			<div class="col-sm-6">
 				<p>
 					<img src="img/rasptouchscreena-web.jpg" alt="Raspberry Pi Display" class="img-fluid">
 				</p>
@@ -248,17 +249,18 @@
 	</div>
 	
 	</article>
-	<footer class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 text-xs-center copyright">
-				&copy; 2017 CoderDojo Maebashi, Japan.
-			</div>
-		</div>
+
+	<footer class="bd-footer text-muted">
+	<div class="container-fluid text-center">
+		<hr>
+		<p>
+			&copy; 2017- CoderDojo Maebashi, Japan.
+		</p>
 	</div>
 	</footer>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script>
 		jQuery(function(){
