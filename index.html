@@ -338,16 +338,16 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script>
-		jQuery(function(){
-			var headerHight = 0;
-			jQuery('a[href^=#]').click(function() {
-				var speed = 400;
-				var href= jQuery(this).attr("href");
-				var target = jQuery(href == "#" || href == "" ? 'html' : href);
-				var position = target.offset().top-headerHight;  jQuery('body,html').animate({scrollTop:position}, speed, 'swing');
-				return false;
-			});
-		});
+   // #にダブルクォーテーションが必要
+   $('a[href^="#"]').click(function() {
+      var speed = 400;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
 	</script>
 	
 	<script>
