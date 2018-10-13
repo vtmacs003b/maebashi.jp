@@ -21,7 +21,7 @@
 		<meta property="og:image" content="https://vtmacs003b.github.io/maebashi.jp/img/raspi_dojo.png">
 		<meta property="og:description" content="プログラミング道場 CoderDojo 前橋の公式サイトです。">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <!--[if lt IE 9]>
       <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -44,8 +44,8 @@
 				<li class="nav-item"><a href="#whatsthis" class="nav-link">CoderDojo とは？</a></li>
 				<li class="nav-item"><a href="#maebashi" class="nav-link">CoderDojo 前橋について</a></li>
 				<li class="nav-item"><a href="#schedule" class="nav-link">日程</a></li>
-				<li class="nav-item"><a href="#mentor" class="nav-link">メンター募集中</a></li>
-				<li class="nav-item"><a href="#ninja" class="nav-link">参加者募集</a></li>
+				<li class="nav-item"><a href="#ninja" class="nav-link">参加者</a></li>
+				<li class="nav-item"><a href="#mentor" class="nav-link">メンター</a></li>
 				</ul>
 			</div>
 		</div>
@@ -54,7 +54,7 @@
 
 	<article>
 	<div class="jumbotron special">
-		<div class="container">
+		<div class="container-fluid">
 		  <div class="row">
 			<div class="col-xs-12 outline">
 				<h1 class="raspi display-4">すべての子どもにプログラミングを</h1>
@@ -67,12 +67,10 @@
 					参考：<a href="https://www.nikkei.com/article/DGXMZO3064409017052018EE8000/">大学新入試にプログラミング　首相「現代のそろばん」</a>（日本経済新聞）<br>
 					一足先にプログラミングの世界を親子で体験してみませんか？</strong>
 				</p>
-				<div class="download center-block">
+				<div class="download center-block button-group">
 					<a href="#schedule" class="btn btn-primary btn-lg"><i class="fa fa-calendar"></i> 日程について</a>
-					<a href="#mentor" class="btn btn-secondary btn-lg"><i class="fa fa-users"></i> メンター募集</a>
-					<a href="#ninja" class="btn btn-secondary btn-lg"><i class="fa fa-child"></i> 参加者募集</a>
-					<a href="first.html" class="btn btn-secondary btn-lg"><i class="fa fa-first-order"></i> まず始めに</a>
-					<a href="contest.html" class="btn btn-secondary btn-lg"><i class="fa fa-trophy"></i> 各種コンテスト</a>
+					<a href="#ninja" class="btn btn-info btn-lg"><i class="fas fa-user-ninja"></i> 参加者</a>
+					<a href="#mentor" class="btn btn-info btn-lg"><i class="fa fa-users"></i> メンター</a>
 				</div>
 				<!-- <div><a href="programming.html" class="btn btn-primary btn-lg"><i class="fa fa-windows"></i> 体験会詳細</a></div> -->
 			</div>
@@ -181,9 +179,14 @@
 					場所：<a href="http://www.gs816.jp/lifeupweb/access/">前橋市南町３−３５−３　セキスイハイムビル２Fセミナー室</a><br>
 					</dd>
 				</dl>
-			</div>
-			<div class="col-sm-6">
-				<p><strong>過去の道場</strong></p>
+				<div class="card">
+					<div class="card-header">
+						<a class="card-link" data-toggle="collapse" href="#past">
+							過去の道場
+						</a>
+					</div>
+					<div id="past" class="collapse" data-parent="#schedule">
+						<div class="card-body">
 				<dl>
 					<dt>第１回</dt>
 					<dd class="alert-light">
@@ -286,6 +289,9 @@
 					２０１８年９月１６日（日）　１０：００～１２：００<br>
 					</dd>
 				</dl>
+						</div>
+					</div>
+				</div>
 
 			</div>
 		</div>
@@ -293,12 +299,39 @@
 	
 	<hr>
 	
+	<div id="ninja" class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="/maebashi.jp/">Home</a></li>
+					<li class="breadcrumb-item active">参加者</li>
+				</ol>
+			</div>
+			<div class="col-sm-6">
+				<h2>参加者向け</h2>
+				<p>
+					参加者（ニンジャ）向けのページを用意しました。
+				</p>
+				<address><a href="ninja.html">ニンジャページ</a></address>
+			</div>
+			<div class="col-sm-6">
+				<h2>参加者募集について</h2>
+				<p>
+					参加についてのお問い合わせは、下記メールアドレスまでご連絡をお願い致します。
+				</p>
+				<address><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#101;&#98;&#97;&#115;&#104;&#105;&#46;&#106;&#112;&#64;&#99;&#111;&#100;&#101;&#114;&#100;&#111;&#106;&#111;&#46;&#99;&#111;&#109;">&#109;&#97;&#101;&#98;&#97;&#115;&#104;&#105;&#46;&#106;&#112;&#64;&#99;&#111;&#100;&#101;&#114;&#100;&#111;&#106;&#111;&#46;&#99;&#111;&#109;</a></address>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
 	<div id="mentor" class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="/maebashi.jp/">Home</a></li>
-					<li class="breadcrumb-item active">メンター募集</li>
+					<li class="breadcrumb-item active">メンター</li>
 				</ol>
 			</div>
 			<div class="col-sm-6">
@@ -314,29 +347,6 @@
 			</div>
 			<div class="col-sm-6">
 				<img src="img/mentor2.jpg" alt="Mentor" class="img-fluid">
-			</div>
-		</div>
-	</div>
-	
-	<hr>
-	
-	<div id="ninja" class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="/maebashi.jp/">Home</a></li>
-					<li class="breadcrumb-item active">参加者募集</li>
-				</ol>
-			</div>
-			<div class="col-sm-6">
-				<h2>参加者募集について</h2>
-				<p>
-					参加についてのお問い合わせは、下記メールアドレスまでご連絡をお願い致します。
-				</p>
-				<address><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#101;&#98;&#97;&#115;&#104;&#105;&#46;&#106;&#112;&#64;&#99;&#111;&#100;&#101;&#114;&#100;&#111;&#106;&#111;&#46;&#99;&#111;&#109;">&#109;&#97;&#101;&#98;&#97;&#115;&#104;&#105;&#46;&#106;&#112;&#64;&#99;&#111;&#100;&#101;&#114;&#100;&#111;&#106;&#111;&#46;&#99;&#111;&#109;</a></address>
-			</div>
-			<div class="col-sm-6">
-				<img src="programming/mc_social.jpg" alt="Raspberry Pi" class="img-fluid">
 			</div>
 		</div>
 	</div>
