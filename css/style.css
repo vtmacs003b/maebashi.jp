@@ -1,0 +1,21 @@
+﻿.cal_wrapper {
+max-width: 960px; /* 最大幅 */
+min-width: 300px; /* 最小幅 */
+margin: 2.0833% auto;
+}
+.googlecal {
+position: relative;
+padding-bottom: 100%; /* 縦横比 */
+height: 0;
+}
+.googlecal iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+/* 画面幅が768px以上の場合の縦横比の指定 */
+@media only screen and (min-width: 768px) {
+.googlecal { padding-bottom: 75%; }
+}
