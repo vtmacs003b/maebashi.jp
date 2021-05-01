@@ -19,3 +19,16 @@ height: 100% !important;
 @media only screen and (min-width: 768px) {
 .googlecal { padding-bottom: 75%; }
 }
+.gmap {
+height: 0;
+overflow: hidden;
+padding-bottom: 56.25%;
+position: relative;
+}
+.gmap iframe {
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+}
